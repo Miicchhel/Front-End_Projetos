@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body[tema="claro"]{
+    color:#29778d;
+    background-color: white;
+}
+
+body[tema="escuro"]{
+    color:#47c3e6;
+    background-color: rgb(49, 47, 47);
+}
+
+.container{
+    width: 80%;
+    min-width: 360px;
+    height: 200px;
+    text-align: center;    
+}
+
+button{
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border-style:hidden;
+    
+}
+
+button:hover{
+    background-color: rgba(255, 153, 0, 0.925);
+}
+
+.cores{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.cores p{
+    font-size: large;
+}
